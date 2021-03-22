@@ -46,21 +46,20 @@ body {
             animation-name: polina;
             animation-duration: 2s;            
             animation-iteration-count: infinite;
-            animation-timing-function: linear;
-            animation-play-state: running;
+            animation-timing-function: linear;           
             text-transform: uppercase;
             color: darkmagenta;
         }
 
         @keyframes lena {
             25% {
-                transform: translate(480px, 0);
+                transform: translate(470px, 0);
             }
             50% {
-                transform: translate(480px, 480px);
+                transform: translate(470px, 470px);
             }
             75% {
-                transform: translate(0, 480px);
+                transform: translate(0, 470px);
                    }           
             100% {
                 transform: translate(0, 0);
@@ -71,7 +70,8 @@ body {
         .lena {
             width: 50px;
             animation-name: lena;
-            animation-duration: 10s;          
+            animation-duration: 10s;
+            animation-timing-function: linear;          
             
         }
        
